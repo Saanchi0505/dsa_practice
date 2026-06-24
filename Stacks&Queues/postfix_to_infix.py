@@ -13,5 +13,5 @@ def post_to_in(exp):
             stack.append(ch)
     return stack[-1]
 
-exp = "AB+C*"
+exp = "ABC/-AK/L-*"
 print(post_to_in(exp))
